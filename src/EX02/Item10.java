@@ -43,7 +43,7 @@ public class Item10 {
          *   Bad case의 3과 반대되는 경우라고 볼수 있다.
          *
          *  !! equals 사용시에는 hashcode도 재정의한다.
-         *  복잡하게 만들지 말자
+         *  복잡하게 짜지 말것
          */
 
 

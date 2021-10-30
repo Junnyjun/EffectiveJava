@@ -24,7 +24,6 @@ public class Item14 {
          *
          * 작성요령은 Equals와 비슷하다다
          * < > 관계 연산자
-         *
          * */
     }
 }

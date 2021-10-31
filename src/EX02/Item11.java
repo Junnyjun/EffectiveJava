@@ -39,15 +39,15 @@ final class PhoneNumber {
         return (short) val;
     }
 
-    @Override public boolean equals(Object o) {
-        if (o == this)
-            return true;
-        if (!(o instanceof PhoneNumber14))
-            return false;
-        PhoneNumber14 pn = (PhoneNumber14)o;
-        return pn.lineNum == lineNum && pn.prefix == prefix
-                && pn.areaCode == areaCode;
-    }
+//    @Override public boolean equals(Object o) {
+//        if (o == this)
+//            return true;
+//        if (!(o instanceof PhoneNumber14))
+//            return false;
+//        PhoneNumber14 pn = (PhoneNumber14)o;
+//        return pn.lineNum == lineNum && pn.prefix == prefix
+//                && pn.areaCode == areaCode;
+//    }
 
     // hashCode 없이는 제대로 동작하지 않는다. 다음 셋 중 하나를 활성화하자.
 

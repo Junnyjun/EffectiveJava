@@ -65,9 +65,9 @@ public class Item33 {
                     "사용법: java PrintAnnotation <class> <annotation>");
             System.exit(1);
         }
-        String className = args[0];
-        String annotationTypeName = args[1];
-        Class<?> klass = Class.forName(className);
-        System.out.println(getAnnotation(klass, annotationTypeName));
+//        String className = args[0];
+//        String annotationTypeName = args[1];
+//        Class<?> klass = Class.forName(className);
+//        System.out.println(getAnnotation(klass, annotationTypeName));
     }
 }
